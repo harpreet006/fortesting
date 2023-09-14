@@ -1,0 +1,418 @@
+{
+    "statusCode": 200,
+    "data":
+        {
+            "id": 8,
+            "totalPerUnitCost": 120000,
+            "remark": "remark",
+            "status": "",
+            "manPowers": [
+                {
+                    "id": 5,
+                    "quantity": 12,
+                    "costUnit": "39",
+                    "totalMonth": "10",
+                    "remark": "man remark"
+                }
+            ],
+            "infrastructures": [
+                {
+                    "id": 5,
+                    "quantity": 10,
+                    "costUnit": "10",
+                    "totalMonth": "20",
+                    "remark": "infra remark"
+                }
+            ],
+            "runningCosts": [
+                {
+                    "id": 5,
+                    "quantity": 20,
+                    "costUnit": "3",
+                    "totalMonth": "20",
+                    "remark": "run remark"
+                }
+            ],
+            "customerRfq": {
+                    "id": 2,
+                    "warehouseSpaceRequired": 500,
+                    "location":{
+                        "city": {
+                            "name": "delhi"
+                        },
+                        "area": {
+                            "name": "rohini"
+                        }
+                    },
+                    "documentName":"Customer Rfq",
+                    "sharedBy":"customer",
+                    "sharedTo":"admin",
+                    "purpose":"customer to warehousity",
+                    "user": {
+                        "id": 3,
+                        "firstName": "customer",
+                        "lastName": "customer",
+                        "phone": "9870005432",
+                        "companyName": "testcompany",
+                        "referredCode": "",
+                        "countryCode": "+91",
+                        "email": "customer@customer.com",
+                        "password": "$2b$10$GceRwo5Rfj9tBKvZXzzi8OIBRE4US6j.5e0zn8pecJj9JbhjD4/xK",
+                        "userType": "consultant",
+                        "roleId": 3,
+                        "active": true,
+                        "isPhoneVerified": true,
+                        "phoneOtp": "3455",
+                        "isEmailVerified": true,
+                        "emailOtp": "1314"
+                    },
+                    "contactInformation": {
+                        "companyName": "company",
+                        "companyType": {
+                            "type": "individual"
+                        },
+                        "address": "",
+                        "registeredOfficeAddress":"",
+                        "website": "http://website.com",
+                        "groupCompany": "g-company",
+                        "authorisedSignatory": "sign",
+                        "annualTurnover": "1cr",
+                        "noOfEmployees": 100,
+                        "coreBusiness": "IT",
+                        "certification": {
+                            "name": "190-2001certificate"
+                        },
+                        "registration": {
+                            "name": "msme license"
+                        },
+                        "contactPerson": "9876543210",
+                        "title": "tilte",
+                        "email": "test@test.com",
+                        "phone": "909876543",
+                        "customerRfq": 1
+                    },
+                    "general": {
+                        "industrySector": {
+                            "name": "retail"
+                        },
+                        "productType": {
+                            "name": "general"
+                        },
+                        "warehouseCategory": {
+                            "category": {
+                            "name":"finish goods"  
+                            },
+                            "bounded": {
+                                "name":"inFTWZ"
+                            },
+                            "other": "other"  
+                        },
+                        "dangerousGoods": "file",
+                        "warehouseLocation": {
+                            "cityAndArea": {
+                                "name": "delhi"
+                            },
+                            "other": "other"
+                        },
+                        "workingHour": {
+                            "startTime": 1, 
+                            "endTime": 23, 
+                            "week": "SUNDAY",
+                            "other": "other"
+                        },
+                        "contractPeriod": {
+                            "contract": {
+                                "name": "1year"
+                            },
+                            "others": "other"  
+                        },
+                        "plannedGoLiveDate": "2021-04-01 07:37:05",
+                        "customerRfq": 1
+                    },
+                    "inbounds": [
+                        {
+                            "processType": "pro typeupdate",
+                            "uom": "uom",
+                            "weightPerUom": "weightPerUom",
+                            "volume": "DAILY",
+                            "quantity": 10,
+                            "vehicleType": "vehicleType",
+                            "remark": "remark"
+                        },
+                        {
+                            "processType": "pro typeupdate",
+                            "uom": "uom",
+                            "weightPerUom": "weightPerUom",
+                            "volume": "DAILY",
+                            "quantity": 10,
+                            "vehicleType": "vehicleType",
+                            "remark": "remark"
+                        }
+                    ],
+                    "outbounds": [
+                        {
+                            "processType": "protype",
+                            "uom": "uom",
+                            "weightPerUom": "weightPerUom",
+                            "volume": "DAILY",
+                            "quantity": 10,
+                            "vehicleType": "vehicleType",
+                            "remark": "remark"
+                        },
+                        {
+                            "processType": "pro type",
+                            "uom": "uom",
+                            "weightPerUom": "weightPerUom-upadted",
+                            "volume": "DAILY",
+                            "quantity": 80,
+                            "vehicleType": "vehicleType",
+                            "remark": "remark"
+                        }
+                    ],
+                    "transferOrders":[
+                        {
+                            "processType": "transfer type",
+                                        "uom": "uom",
+                                        "weightPerUom": "weightPerUom-upadted",
+                                        "volume": "DAILY",
+                                        "quantity": 80,
+                                        "vehicleType": "vehicleType",
+                                        "remark": "remark",
+                                        "salesOrdersType":[{
+                                            "processType": "sales type",
+                                            "uom": "uom",
+                                            "weightPerUom": "weightPerUom-upadted",
+                                            "volume": "DAILY",
+                                            "quantity": 80,
+                                            "vehicleType": "vehicleType",
+                                            "remark": "remark"
+                                        }]
+                                    }
+                    ],
+                    "manPowers": [
+                        {
+                            "manPower": "WH Manager",
+                            "quantity": 10,
+                            "dedicatedSharedType": "SHARED",
+                            "remark": "remark"
+                        },
+                        {
+                            "manPower": "Asst Manager",
+                            "quantity": 40,
+                            "dedicatedSharedType": "DEDICATED",
+                            "remark": "remark"
+                        }
+                    ],
+                    "returnRfq": [
+                        {
+                            "processType": "protype",
+                            "uom": "uom",
+                            "weightPerUom": "weightPerUom",
+                            "dailyWeekMonth": "WEEKLY",
+                            "quantity": 10,
+                            "remark": "remark"
+                        },
+                        {
+                            "processType": "protype2",
+                            "uom": "uom2",
+                            "weightPerUom": "weightPerUom2",
+                            "dailyWeekMonth": "WEEKLY",
+                            "quantity": 90,
+                            "remark": "remark"
+                        }
+                    ],
+                    "inventoryManagements": [
+                        {
+                            "processType": "processType-up",
+                            "yesNo": true,
+                            "dailyWeekMonth": "WEEKLY",
+                            "quantity": 60,
+                            "remark": "remark"
+                        },
+                        {
+                            "processType": "processType2-up",
+                            "yesNo": false,
+                            "dailyWeekMonth": "MONTHLY",
+                            "quantity": 70,
+                            "remark": "remark2"
+                        }
+                    ],
+                    "storageTypes": [
+                        {
+                            "processType": "Temperature Control",
+                            "temperatureRange": "200",
+                            "noOfPallet": 100
+                        },
+                        {
+                            "processType": "Dust Free",
+                            "temperatureRange": "1000",
+                            "noOfPallet": 800
+                        },
+                        {
+                            "processType": "Humidity Control",
+                            "temperatureRange": "400",
+                            "noOfPallet": 200
+                        }
+                    ],
+                    "valueAddedServices": [
+                        {
+                            "processType": "Quality Control",
+                            "qtyPerMonth": 100,
+                            "remark":  "remark"
+                        },
+                        {
+                            "processType": "Repackaging",
+                            "qtyPerMonth": 900,
+                            "remark":  "remark2"
+                        }
+                    ],
+                    "otherServiceRequirements": [
+                        {
+                            "descriptionType": "IT-up",
+                            "noOfIds": "2",
+                            "quantity": 200,
+                            "remark": "remark-up"
+                        },
+                        {
+                            "descriptionType": "WMS",
+                            "noOfIds": "2",
+                            "quantity": 100,
+                            "remark": "remark"
+                        }
+                    ],
+                    "warehouses": [
+                        {
+                            "id": 1,
+                            "warehouseName": "wh1",
+                            "category": "cold",
+                            "type": "Dedicated",
+                            "gstCertificate": "certifcate",
+                            "gstNumber": "gst1234",
+                            "location": "delhi",
+                            "totalArea": 500,
+                            "structureType": "shelter",
+                            "workingHour": "9am-5pm",
+                            "pallet": 10,
+                            "status": "NEWREQUEST",
+                            "warehouseContactDetail": true,
+                            "storageSpace": true,
+                            "itAndOfficeInfra": false,
+                            "mhInfra": true,
+                            "safetyAndSecurity": true,
+                            "permit": false,
+                            "materialType": false,
+                            "formEighty": false,
+                            "warehouseImages": false,
+                            "created_at": "2021-05-26T11:12:40.105Z",
+                            "updated_at": "2021-05-29T08:06:21.577Z",
+                            "users": [
+                                {
+                                    "id": 8,
+                                    "firstName": "vendor1",
+                                    "lastName": "vendor1",
+                                    "phone": "9870005432",
+                                    "companyName": "testcompany",
+                                    "referredCode": "",
+                                    "countryCode": "+91",
+                                    "email": "vendor1@vendor.com",
+                                    "password": "$2b$10$nVgJk9pAPqYj5QUuOMS0YOsWlT/XS/7GYbXyPfh3MUXzDfVtkF5pK",
+                                    "userType": "consultant",
+                                    "roleId": 3,
+                                    "active": true,
+                                    "isPhoneVerified": false,
+                                    "phoneOtp": "5199",
+                                    "isEmailVerified": false,
+                                    "emailOtp": "7676"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "warehouseName": "wh3",
+                            "category": "cold",
+                            "type": "shared",
+                            "gstCertificate": "",
+                            "gstNumber": "",
+                            "location": "banglore",
+                            "totalArea": 1500,
+                            "structureType": "Shelter",
+                            "workingHour": "9am-5pm",
+                            "pallet": 30,
+                            "status": "NEWREQUEST",
+                            "warehouseContactDetail": false,
+                            "storageSpace": false,
+                            "itAndOfficeInfra": false,
+                            "mhInfra": false,
+                            "safetyAndSecurity": false,
+                            "permit": false,
+                            "materialType": false,
+                            "formEighty": false,
+                            "warehouseImages": false,
+                            "created_at": "2021-05-28T07:57:20.115Z",
+                            "updated_at": "2021-05-29T08:06:21.627Z",
+                            "users": [
+                                {
+                                    "id": 9,
+                                    "firstName": "vendor2",
+                                    "lastName": "vendor2",
+                                    "phone": "9870005432",
+                                    "companyName": "testcompany",
+                                    "referredCode": "",
+                                    "countryCode": "+91",
+                                    "email": "vendor2@vendor.com",
+                                    "password": "$2b$10$wPOFZMJ8/4olpvplwNiEbO.TD2fvwMXd29AvhgHoO5o5hfNHCYmB6",
+                                    "userType": "consultant",
+                                    "roleId": 3,
+                                    "active": true,
+                                    "isPhoneVerified": false,
+                                    "phoneOtp": "2380",
+                                    "isEmailVerified": false,
+                                    "emailOtp": "7400"
+                                }
+                            ]
+                        }
+                    ],
+                    "kpi":{
+                        "kpi":"http://www.file.com"
+                    },
+                    "additionalRequirement": {
+                        "additionalRequirement": "string`"
+                    },
+                    "created_at":"date"
+                },
+            "vendorResponseRfq": {
+                "id": 7,
+                "totalPerUnitCost": 800000,
+                "remark": "remark",
+                "status": "",
+                "manPowers": [
+                    {
+                        "id": 4,
+                        "quantity": 12,
+                        "costUnit": "39",
+                        "totalMonth": "10",
+                        "remark": "man remark"
+                    }
+                ],
+                "infrastructures": [
+                    {
+                        "id": 4,
+                        "quantity": 10,
+                        "costUnit": "10",
+                        "totalMonth": "20",
+                        "remark": "infra remark"
+                    }
+                ],
+                "runningCosts": [
+                    {
+                        "id": 4,
+                        "quantity": 20,
+                        "costUnit": "3",
+                        "totalMonth": "20",
+                        "remark": "run remark"
+                    }
+                ],
+                "customerRfq": []
+            }
+        }
+}

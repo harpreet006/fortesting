@@ -1,0 +1,240 @@
+// ############## COMMON TYPE #################
+export const IS_ERROR = 'IS_ERROR';
+export const IS_LOADING = 'IS_LOADING';
+export const ERROR_MESSAGE = 'ERROR_MESSAGE';
+export const IS_PENDING = 'IS_PENDING';
+export const IS_SUCCESS = 'IS_SUCCESS';
+export const GEOCORDINATE = 'GEOCORDINATE';
+export const IS_LOGIN_PENDING = 'IS_LOGIN_PENDING';
+
+export const IMAGE_ID = 'IMAGE_ID';
+export const WAREHOUSEFILTER = 'WAREHOUSEFILTER';
+export const CUSTOMERGSTLIST = 'CUSTOMERGSTLIST';
+export const VENDORGSTLIST = 'VENDORGSTLIST';
+export const WAREHOUSE_DETAIL_PAGE = 'WAREHOUSE_DETAIL_PAGE';
+
+export const SESSIONEXPIRED = 'SESSIONEXPIRED';
+export const NAVBARDATA = 'NAVBARDATA';
+export const HOMESECTIONDATA = 'HOMESECTIONDATA';
+export const PRODUCTLISTDATA = 'PRODUCTLISTDATA';
+export const PRODUCTDETAIL = 'PRODUCTDETAIL';
+export const VARIANTLIST = 'VARIANTLIST';
+
+export const AUTHENTICATED = 'AUTHENTICATED';
+export const VENDOR_AUTHENTICATED ='VENDOR_AUTHENTICATED';
+
+export const SUCCESS = 'SUCCESS';
+export const PENDING = 'PENDING';
+export const ERROR = 'ERROR';
+
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_PENDING = 'LOGIN_PENDING';
+export const LOGIN_ERROR = 'LOGIN_ERROR';
+
+export const LOGOUT_SUCCESS = 'LOGOUT_SUCCESS';
+export const LOGOUT_PENDING = 'LOGOUT_PENDING';
+export const LOGOUT_ERROR = 'LOGOUT_ERROR';
+
+export const CREATE_ROLE_SUCCESS = 'CREATE_ROLE_SUCCESS';
+export const CREATE_ROLE_PENDING = 'CREATE_ROLE_PENDING';
+export const CREATE_ROLE_ERROR = 'CREATE_ROLE_ERROR';
+
+export const FETCH_USERS_SUCCESS = 'FETCH_USERS_SUCCESS';
+export const FETCH_USERS_PENDING = 'FETCH_USERS_PENDING';
+export const FETCH_USERS_ERROR = 'FETCH_USERS_ERROR';
+
+
+export const MOBILE_VERIFICATION_SUCCESS = 'MOBILE_VERIFICATION_SUCCESS';
+export const MOBILE_VERIFICATION_PENDING = 'MOBILE_VERIFICATION_PENDING';
+export const MOBILE_VERIFICATION_ERROR = 'MOBILE_VERIFICATION_ERROR';
+
+export const OTP_VERIFICATION_SUCCESS = 'OTP_VERIFICATION_SUCCESS';
+export const OTP_VERIFICATION_PENDING = 'OTP_VERIFICATION_PENDING';
+export const OTP_VERIFICATION_ERROR = 'OTP_VERIFICATION_ERROR';
+export const OTP_VERIFICATION_CONFIRM = 'OTP_VERIFICATION_CONFIRM';
+export const REGISTER_MOBILE_NUMBER = 'REGISTER_MOBILE_NUMBER';
+export const OTP_RESEND_MESSAGE = 'OTP_RESEND_MESSAGE';
+export const UPDATE_MOBILE_NUMBER = 'UPDATE_MOBILE_NUMBER';
+
+// ###### Side Menu #######
+export const READ_ONLY = "READ_ONLY";
+export const SIDEMENU = "SIDEMENU";
+
+// ################# Auth User ################ 
+export const USER_DETAIL = 'USER_DETAIL'
+
+
+// ##########  Booking ####### 
+export const BOOKINGLIST = 'BOOKINGLIST';
+export const BOOKINGDETAIL = 'BOOKINGDETAIL';
+
+// ##########################################################
+// ################## LIST OF WAREHOUSE #####################
+// ##########################################################
+
+
+export const WAREHOUSE_SUCCESS = 'WAREHOUSE_SUCCESS';
+export const WAREHOUSE_PENDING = 'WAREHOUSE_PENDING';
+export const WAREHOUSE_LOADING = 'WAREHOUSE_LOADING';
+export const WAREHOUSE_ERROR = 'WAREHOUSE_ERROR';
+export const WAREHOUSE_ERROR_MSG = 'WAREHOUSE_ERROR_MSG';
+export const ADD_NEW_WAREHOUSE = "ADD_NEW_WAREHOUSE";
+export const WAREHOUSE_LIST = "WAREHOUSE_LIST";
+export const WAREHOUSE_BY_ID = "WAREHOUSE_BY_ID";
+export const NEW_WAREHOUSE_INFO = "NEW_WAREHOUSE_INFO";
+export const ACCORDION = "ACCORDION";
+export const FINAL_SUBMIT = "FINAL_SUBMIT";
+export const SAVEVALUE = "SAVEVALUE"
+export const WAREHOUSE_BY_ID_AND_TYPE = "WAREHOUSE_BY_ID_AND_TYPE";
+export const WAREHOUSE_FETURE = "WAREHOUSE_FETURE";
+export const WAREHOUSE_SUGGEST = "WAREHOUSE_SUGGEST";
+export const EXPLORE_NETWORK = "EXPLORE_NETWORK";
+
+// ##############  Home Page Data ###############
+export const HOMEDATA = "HOMEDATA";
+export const HOME_COUNT = "HOME_COUNT";
+
+
+// ################## NOTIFICATION #####################
+export const NOTIFICATION = 'NOTIFICATION';
+export const NOTIFICATION_BY_ID = 'NOTIFICATION_BY_ID';
+
+// ################## Service #####################
+export const SERVICE = 'SERVICE';
+export const SERVICE_BY_ID = 'SERVICE_BY_ID';
+export const SERVICE_CATEGORY = 'SERVICE_CATEGORY';
+export const SERVICE_CATEGORY_BY_ID = 'SERVICE_CATEGORY_BY_ID';
+export const SERVICE_SUBCATEGORY = 'SERVICE_SUBCATEGORY';
+export const SERVICE_SUBCATEGORY_BY_ID = 'SERVICE_SUBCATEGORY_BY_ID';
+export const SERVICE_ARRAY = 'SERVICE_ARRAY';
+
+// Booking
+export const BOOKING ="BOOKING";
+export const BOOKING_BY_ID = "BOOKING_BY_ID"
+export const BOOKING_RESPONSE = "BOOKING_RESPONSE"
+export const BOOKING_LIST_WAREHOUSE = "BOOKING_LIST_WAREHOUSE"
+
+// MYWAREHOUSE
+export const MYWAREHOUSE = "MYWAREHOUSE";
+export const MYWAREHOUSE_BY_ID = "MYWAREHOUSE_BY_ID"
+
+// INVOICE
+export const INVOICE = "INVOICE";
+export const INVOICE_BY_ID = "INVOICE_BY_ID";
+export const INVOICE_RESPONSE = "INVOICE_RESPONSE";
+
+// ENQUIRY
+export const ENQUIRY = "ENQUIRY";
+export const ENQUIRY_BY_ID = "ENQUIRY_BY_ID"
+
+// FAVORITE
+export const FAVORITE_LIST = "FAVORITE_LIST";
+export const FAVORITE_ID = "FAVORITE_ID";
+
+// WARESHEET
+export const WARESHEET_LIST = "WARESHEET_LIST";
+export const NEW_WARESHEET = "NEW_WARESHEET";
+export const WARESHEET_BY_ID = "WARESHEET_BY_ID";
+
+// RFQ 
+export const CUSTOMER_RFQ = "CUSTOMER_RFQ";
+export const CUSTOMERRFQ_BY_ID = "CUSTOMERRFQ_BY_ID";
+export const RFQ_RESPONSE = "RFQ_RESPONSE";
+export const RFQ_INITIAL_DETAIL = "RFQ_INITIAL_DETAIL";
+export const INITIAL_EMPTY = "INITIAL_EMPTY";
+export const RFQ_FIRST_FORM = "RFQ_FIRST_FORM";
+
+
+// vendor RFQ
+// RFQ 
+export const VENDOR_RFQ = "CUSTOMER_RFQ";
+export const VENDOR_BY_ID = "CUSTOMERRFQ_BY_ID";
+
+// Documents
+
+export const DOCUMENT = "DOCUMENT";
+export const DOCUMENT_BY_ID = "DOCUMENT_BY_ID";
+
+// CATEGORY
+export const CATEGORY = "CATEGORY";
+
+// ACTIVE_ACCORDIAN
+export const ACTIVE_ACCORDIAN = "ACTIVE_ACCORDIAN"
+
+// CART
+export const CART = "CART";
+export const CART_BY_ID = "CART_BY_ID";
+export const CART_ID_LIST = "CART_ID_LIST";
+export const CART_RESPONSE = "CART_RESPONSE";
+export const CART_FAVORITE = "CART_FAVORITE";
+
+// COMPARE
+
+export const COMPARE = "COMPARE";
+
+// WHY WHS
+export const WHYWHS = "WHYWHS";
+export const WHYWHS_BY_ID= "WHYWHS_BY_ID";
+export const WHY_RESPONSE = "WHY_RESPONSE";
+
+// TYEP
+export const WHS_TYPE = "WHS_TYPE";
+
+
+// SUB USer MAnagement
+
+export const WHS_USER = "WHS_USER";
+export const WHS_USER_BY_ID = "WHS_USER_BY_ID";
+export const ROLE = "ROLE";
+export const ROLE_BY_ID = "ROLE_BY_ID";
+export const DEPARTMENT = "DEPARTMENT";
+export const DEPARTMENT_BY_ID = "DEPARTMENT_BY_ID";
+export const PERMISSION = "PERMISSION";
+export const PERMISSION_BY_ID = "PERMISSION_BY_ID";
+export const WHS_RESPONSE ="WHS_RESPONSE";
+export const ROLE_PERMISSION = "ROLE_PERMISSION";
+export const KEY_CONTACT_LIST = "KEY_CONTACT_LIST";
+
+
+// Comman Type
+export const TERM_AND_CONDITION = "TERM_AND_CONDITION";
+export const DROPDOWN = "DROPDOWN";
+export const SIGNUP_POPUP = "SIGNUP_POPUP";
+
+// TESTIMONIAL
+export const TESTIMONIAL = "TESTIMONIAL";
+export const TESTIMONIAL_BY_ID = "TESTIMONIAL_BY_ID";
+
+// MIS
+export const MIS_BOOKING = "MIS_BOOKING";
+export const MIS = "MIS";
+export const MIS_BY_ID = "MIS_BY_ID";
+export const MIS_BOOKING_BY_ID = "MIS_BOOKING_BY_ID";
+export const MIS_RESPONSE = "MIS_RESPONSE";
+
+
+// Dashboard
+export const DASHBOARD = "DASHBOARD";
+export const DASHBOARD_RESPONSE = "DASHBOARD_RESPONSE";
+
+// Customer Type
+export const QUERY_COUNT = "QUERY_COUNT";
+export const MY_CART_COUNT = "MY_CART_COUNT";
+export const TOTAL_REQUEST_FOR_WH_BOOKING_CUSTOMER = "TOTAL_REQUEST_FOR_WH_BOOKING_CUSTOMER";
+export const BOOKING_REQUEST_ATTENDENT_WHS = "BOOKING_REQUEST_ATTENDENT_WHS";
+export const BOOKING_REQUEST_UN_ATTENDENT_WHS = "BOOKING_REQUEST_UN_ATTENDENT_WHS";
+export const CONFIRM_BOOKING = "CONFIRM_BOOKING";
+export const BOOKING_REQUEST_HOLD_LOST = "BOOKING_REQUEST_HOLD_LOST";
+export const DAHOBOARD_NOTIFICATION = "DAHOBOARD_NOTIFICATION";
+export const DASHBOARD_CATEGORY = "DASHBOARD_CATEGORY";
+
+export const VENDOR_DEMOGRAPHY = "VENDOR_DEMOGRAPHY";
+export const CUSTOMER_DEMOGRAPHY = "CUSTOMER_DEMOGRAPHY";
+
+
+export const VENDORDATA = "VENDORDATA";
+export const VENDOR_NUMBER_OF_WAREHOUSE = "VENDOR_NUMBER_OF_WAREHOUSE";
+export const VENDOR_SPACE_CATEGORY = "VENDOR_SPACE_CATEGORY";
+
+export const REVIEW = "REVIEW";
+export const REVIEW_RESPONSE = "REVIEW_RESPONSE";

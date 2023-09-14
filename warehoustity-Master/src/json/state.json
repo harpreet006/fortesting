@@ -1,0 +1,261 @@
+[
+    {
+      "id": 1,
+      "state_name": "ANDHRA PRADESH",
+      "id1": 1,
+      "code": "AP",
+      "code1": 36
+    },
+    {
+      "id": 2,
+      "state_name": "ASSAM",
+      "id1": 1,
+      "code": "AS",
+      "code1": 30
+    },
+    {
+      "id": 3,
+      "state_name": "ARUNACHAL PRADESH",
+      "id1": 1,
+      "code": "AR",
+      "code1": 1
+    },
+    {
+      "id": 4,
+      "state_name": "BIHAR",
+      "id1": 1,
+      "code": "BR",
+      "code1": 28
+    },
+    {
+      "id": 5,
+      "state_name": "GUJRAT",
+      "id1": 1,
+      "code": "GJ",
+      "code1": 83
+    },
+    {
+      "id": 6,
+      "state_name": "HARYANA",
+      "id1": 1,
+      "code": "HR",
+      "code1": 98
+    },
+    {
+      "id": 7,
+      "state_name": "HIMACHAL PRADESH",
+      "id1": 1,
+      "code": "HP",
+      "code1": 9
+    },
+    {
+      "id": 8,
+      "state_name": "JAMMU&KASHMIR",
+      "id1": 1,
+      "code": "JK",
+      "code1": 5
+    },
+    {
+      "id": 9,
+      "state_name": "KARNATAKA",
+      "id1": 1,
+      "code": "KA",
+      "code1": 85
+    },
+    {
+      "id": 10,
+      "state_name": "KERALA",
+      "id1": 1,
+      "code": "KL",
+      "code1": 19
+    },
+    {
+      "id": 11,
+      "state_name": "MADHYA PRADESH",
+      "id1": 1,
+      "code": "MP",
+      "code1": 52
+    },
+    {
+      "id": 12,
+      "state_name": "MAHARASHTRA",
+      "id1": 1,
+      "code": "MH",
+      "code1": 207
+    },
+    {
+      "id": 13,
+      "state_name": "MANIPUR",
+      "id1": 1,
+      "code": "MN",
+      "code1": 1
+    },
+    {
+      "id": 14,
+      "state_name": "MEGHALAYA",
+      "id1": 1,
+      "code": "ML",
+      "code1": 1
+    },
+    {
+      "id": 15,
+      "state_name": "MIZORAM",
+      "id1": 1,
+      "code": "MZ",
+      "code1": 1
+    },
+    {
+      "id": 16,
+      "state_name": "NAGALAND",
+      "id1": 1,
+      "code": "NL",
+      "code1": 0
+    },
+    {
+      "id": 17,
+      "state_name": "ORISSA",
+      "id1": 1,
+      "code": "OD",
+      "code1": 25
+    },
+    {
+      "id": 18,
+      "state_name": "PUNJAB",
+      "id1": 1,
+      "code": "PB",
+      "code1": 23
+    },
+    {
+      "id": 19,
+      "state_name": "RAJASTHAN",
+      "id1": 1,
+      "code": "RJ",
+      "code1": 43
+    },
+    {
+      "id": 20,
+      "state_name": "SIKKIM",
+      "id1": 1,
+      "code": "SK",
+      "code1": 1
+    },
+    {
+      "id": 21,
+      "state_name": "TAMILNADU",
+      "id1": 1,
+      "code": "TN",
+      "code1": 74
+    },
+    {
+      "id": 22,
+      "state_name": "TRIPURA",
+      "id1": 1,
+      "code": "TR",
+      "code1": 2
+    },
+    {
+      "id": 23,
+      "state_name": "UTTAR PRADESH",
+      "id1": 1,
+      "code": "UP",
+      "code1": 98
+    },
+    {
+      "id": 24,
+      "state_name": "WEST BENGAL",
+      "id1": 1,
+      "code": "WB",
+      "code1": 54
+    },
+    {
+      "id": 25,
+      "state_name": "DELHI",
+      "id1": 1,
+      "code": "DL",
+      "code1": 92
+    },
+    {
+      "id": 26,
+      "state_name": "GOA",
+      "id1": 1,
+      "code": "GA",
+      "code1": 5
+    },
+    {
+      "id": 27,
+      "state_name": "PONDICHERY",
+      "id1": 1,
+      "code": "PY",
+      "code1": 3
+    },
+    {
+      "id": 28,
+      "state_name": "LAKSHDWEEP",
+      "id1": 1,
+      "code": "LD",
+      "code1": 0
+    },
+    {
+      "id": 29,
+      "state_name": "DAMAN & DIU",
+      "id1": 1,
+      "code": "DD",
+      "code1": 1
+    },
+    {
+      "id": 30,
+      "state_name": "DADRA & NAGAR HAVELI",
+      "id1": 1,
+      "code": "DN",
+      "code1": 1
+    },
+    {
+      "id": 31,
+      "state_name": "CHANDIGARH",
+      "id1": 1,
+      "code": "CH",
+      "code1": 1
+    },
+    {
+      "id": 32,
+      "state_name": "ANDAMAN & NICOBAR",
+      "id1": 1,
+      "code": "AN",
+      "code1": 1
+    },
+    {
+      "id": 33,
+      "state_name": "UTTARAKHAND",
+      "id1": 1,
+      "code": "UK",
+      "code1": 12
+    },
+    {
+      "id": 34,
+      "state_name": "JHARKHAND",
+      "id1": 1,
+      "code": "JH",
+      "code1": 18
+    },
+    {
+      "id": 35,
+      "state_name": "CHATTISGARH",
+      "id1": 1,
+      "code": "CG",
+      "code1": 15
+    },
+    {
+      "id": 36,
+      "state_name": "LADAKH",
+      "id1": 1,
+      "code": "LA",
+      "code1": 0
+    },
+    {
+      "id": 37,
+      "state_name": "TELANGANA",
+      "id1": 1,
+      "code": "TEL",
+      "code1": 19
+    }
+  ]

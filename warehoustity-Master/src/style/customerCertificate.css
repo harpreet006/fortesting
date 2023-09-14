@@ -1,0 +1,424 @@
+.space-certificate-holder {
+    overflow-x: auto;
+  }
+  .space-certificate {
+    min-width: 700px;
+  }
+  .space-certificate.warning {
+    padding: 1.5rem;
+    background-color: #ffffff;
+    position: relative;
+    overflow: hidden;
+  }
+  .space-certificate.warning .space-certificate-design {
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(#475E79, #000000);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 0;
+    position: absolute;
+    transform-origin: center;
+  }
+  .space-certificate.warning .space-certificate-design:before {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    border: 2rem solid #5A86C5;
+    z-index: -1;
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .space-certificate.warning .space-certificate-design.top-left {
+    position: absolute;
+    top: -125px;
+    left: -125px;
+  }
+  .space-certificate.warning .space-certificate-design.top-right {
+    position: absolute;
+    top: -125px;
+    right: -125px;
+  }
+  .space-certificate.warning .space-certificate-design.bottom-right {
+    position: absolute;
+    bottom: -125px;
+    left: -125px;
+  }
+  .space-certificate.warning .space-certificate-design.bottom-left {
+    position: absolute;
+    right: -125px;
+    bottom: -125px;
+  }
+  .space-certificate.warning .space-certificate-inner {
+    box-shadow: 0 0 0.3rem rgba(51, 51, 51, 0.1);
+    background-color: #ffffff;
+    z-index: 200;
+    position: relative;
+  }
+  .space-certificate.warning .space-certificate-inner .inner-border {
+    width: 50%;
+    height: 50%;
+    border-top: 6px double #5A86C5;
+    border-left: 6px double #5A86C5;
+  }
+  .space-certificate.warning .space-certificate-inner .inner-border:after {
+    content: " ";
+    width: 60px;
+    height: 60px;
+    background-image: url("certificate/certificate-corner-design-warning.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -26px;
+    right: 0;
+    bottom: 0;
+    left: -26px;
+  }
+  .space-certificate.warning .space-certificate-inner .inner-border.top-left {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+  }
+  .space-certificate.warning .space-certificate-inner .inner-border.top-right {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  .space-certificate.warning .space-certificate-inner .inner-border.bottom-right {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    -ms-transform: scale(1, -1);
+    -o-transform: scale(1, -1);
+    -moz-transform: scale(1, -1);
+    -webkit-transform: scale(1, -1);
+    transform: scale(1, -1);
+  }
+  .space-certificate.warning .space-certificate-inner .inner-border.bottom-left {
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    -ms-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    -moz-transform: scale(-1, -1);
+    -webkit-transform: scale(-1, -1);
+    transform: scale(-1, -1);
+  }
+  .space-certificate.warning .space-certificate-inner .heading-design {
+    justify-content: center;
+    display: flex;
+  }
+  .space-certificate.warning .space-certificate-inner .heading-design span.left.line {
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    display: inline-block;
+    width: 35%;
+    height: 2px;
+    background-color: #000000;
+    position: relative;
+  }
+  .space-certificate.warning .space-certificate-inner .heading-design span.left.line span.dots {
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    background-color: #5A86C5;
+  }
+  .space-certificate.warning .space-certificate-inner .heading-design span.left.line span.dots:nth-child(2) {
+    width: 9px;
+    height: 9px;
+    right: -15px;
+    top: -4px;
+  }
+  .space-certificate.warning .space-certificate-inner .heading-design span.left.line span.dots:nth-child(3) {
+    width: 7px;
+    height: 7px;
+    right: -30px;
+    top: -3px;
+  }
+  .space-certificate.warning .space-certificate-inner .heading-design span.left.line span.dots:nth-child(4) {
+    width: 5px;
+    height: 5px;
+    right: -42px;
+    top: -2px;
+  }
+  .space-certificate.warning .space-certificate-inner .heading-design span.right.line {
+    display: inline-block;
+    width: 35%;
+    height: 2px;
+    background-color: #000000;
+    position: relative;
+  }
+  .space-certificate.warning .space-certificate-inner .heading-design span.right.line span.dots {
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    background-color: #5A86C5;
+  }
+  .space-certificate.warning .space-certificate-inner .heading-design span.right.line span.dots:nth-child(2) {
+    width: 9px;
+    height: 9px;
+    right: -15px;
+    top: -4px;
+  }
+  .space-certificate.warning .space-certificate-inner .heading-design span.right.line span.dots:nth-child(3) {
+    width: 7px;
+    height: 7px;
+    right: -30px;
+    top: -3px;
+  }
+  .space-certificate.warning .space-certificate-inner .heading-design span.right.line span.dots:nth-child(4) {
+    width: 5px;
+    height: 5px;
+    right: -42px;
+    top: -2px;
+  }
+  .space-certificate.warning .space-certificate-inner th, .space-certificate.warning .space-certificate-inner td {
+    text-align: center;
+  }
+  .space-certificate.warning .space-certificate-inner th.left, .space-certificate.warning .space-certificate-inner td.left {
+    text-align: left;
+  }
+  .space-certificate.blue {
+    padding: 1.5rem;
+    background-color: #ffffff;
+    position: relative;
+    overflow: hidden;
+  }
+  .space-certificate.blue .space-certificate-design {
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(#475E79, #000000);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 0;
+    position: absolute;
+    transform-origin: center;
+  }
+  .space-certificate.blue .space-certificate-design:before {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    border: 2rem solid #5A86C5;
+    z-index: -1;
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .space-certificate.blue .space-certificate-design.top-left {
+    position: absolute;
+    top: -125px;
+    left: -125px;
+  }
+  .space-certificate.blue .space-certificate-design.top-right {
+    position: absolute;
+    top: -125px;
+    right: -125px;
+  }
+  .space-certificate.blue .space-certificate-design.bottom-right {
+    position: absolute;
+    bottom: -125px;
+    left: -125px;
+  }
+  .space-certificate.blue .space-certificate-design.bottom-left {
+    position: absolute;
+    right: -125px;
+    bottom: -125px;
+  }
+  .space-certificate.blue .space-certificate-inner {
+    box-shadow: 0 0 0.3rem rgba(51, 51, 51, 0.1);
+    background-color: #ffffff;
+    z-index: 200;
+    position: relative;
+  }
+  .space-certificate.blue .space-certificate-inner .inner-border {
+    width: 50%;
+    height: 50%;
+    border-top: 6px double #5A86C5;
+    border-left: 6px double #5A86C5;
+  }
+  .space-certificate.blue .space-certificate-inner .inner-border:after {
+    content: " ";
+    width: 60px;
+    height: 60px;
+    background-image: url("./certificate/certificate-corner-design-blue.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -26px;
+    right: 0;
+    bottom: 0;
+    left: -26px;
+  }
+  .space-certificate.blue .space-certificate-inner .inner-border.top-left {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+  }
+  .space-certificate.blue .space-certificate-inner .inner-border.top-right {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  .space-certificate.blue .space-certificate-inner .inner-border.bottom-right {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    -ms-transform: scale(1, -1);
+    -o-transform: scale(1, -1);
+    -moz-transform: scale(1, -1);
+    -webkit-transform: scale(1, -1);
+    transform: scale(1, -1);
+  }
+  .space-certificate.blue .space-certificate-inner .inner-border.bottom-left {
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    -ms-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    -moz-transform: scale(-1, -1);
+    -webkit-transform: scale(-1, -1);
+    transform: scale(-1, -1);
+  }
+  .space-certificate.blue .space-certificate-inner .heading-design {
+    justify-content: center;
+    display: flex;
+  }
+  .space-certificate.blue .space-certificate-inner .heading-design span.left.line {
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    display: inline-block;
+    width: 35%;
+    height: 2px;
+    background-color: #000000;
+    position: relative;
+  }
+  .space-certificate.blue .space-certificate-inner .heading-design span.left.line span.dots {
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    background-color: #5A86C5;
+  }
+  .space-certificate.blue .space-certificate-inner .heading-design span.left.line span.dots:nth-child(2) {
+    width: 9px;
+    height: 9px;
+    right: -15px;
+    top: -4px;
+  }
+  .space-certificate.blue .space-certificate-inner .heading-design span.left.line span.dots:nth-child(3) {
+    width: 7px;
+    height: 7px;
+    right: -30px;
+    top: -3px;
+  }
+  .space-certificate.blue .space-certificate-inner .heading-design span.left.line span.dots:nth-child(4) {
+    width: 5px;
+    height: 5px;
+    right: -42px;
+    top: -2px;
+  }
+  .space-certificate.blue .space-certificate-inner .heading-design span.right.line {
+    display: inline-block;
+    width: 35%;
+    height: 2px;
+    background-color: #000000;
+    position: relative;
+  }
+  .space-certificate.blue .space-certificate-inner .heading-design span.right.line span.dots {
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    background-color: #5A86C5;
+  }
+  .space-certificate.blue .space-certificate-inner .heading-design span.right.line span.dots:nth-child(2) {
+    width: 9px;
+    height: 9px;
+    right: -15px;
+    top: -4px;
+  }
+  .space-certificate.blue .space-certificate-inner .heading-design span.right.line span.dots:nth-child(3) {
+    width: 7px;
+    height: 7px;
+    right: -30px;
+    top: -3px;
+  }
+  .space-certificate.blue .space-certificate-inner .heading-design span.right.line span.dots:nth-child(4) {
+    width: 5px;
+    height: 5px;
+    right: -42px;
+    top: -2px;
+  }
+  .space-certificate.blue .space-certificate-inner th, .space-certificate.blue .space-certificate-inner td {
+    text-align: center;
+  }
+  .space-certificate.blue .space-certificate-inner th.left, .space-certificate.blue .space-certificate-inner td.left {
+    text-align: left;
+  }

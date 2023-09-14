@@ -1,0 +1,68 @@
+[
+  {
+    "id": 0,
+    "description": "Warehousity unique approach, to understand the importance of the customer experience and provide more than just another Warehousing solution, has brought a significant difference in both our performance and our customer delight.",
+    "title": "Head of Logistics & Distribution",
+    "image":"/assets/images/testimonials/Test1.png",
+    "user": {
+      "id": 1,
+      "firstName": "Ashish",
+      "lastName": "Vyas"
+    }
+  },
+  {
+    "id": 1,
+    "description": "Really impressed with Warehousity consultative approuch to all our supply chain needs. They simply have the best technology in place for all our requirements.",
+    "title": "Operations Manager",
+    "image":"/assets/images/testimonials/Test2.png",
+    "user": {
+      "id": 1,
+      "firstName": "Lalit",
+      "lastName": "Sharma"
+    }
+  },
+  {
+    "id": 2,
+    "description": "We had to move fast and needed to set up our warehouse and logistcs quickly, much faster than the industry standards. Warehousity understood our business and fulfilled our demand just in time.",
+    "title": "Transportation Manager",
+    "image":"/assets/images/testimonials/Test3.png",
+    "user": {
+      "id": 1,
+      "firstName": "Tanmay",
+      "lastName": "Tandon"
+    }
+  },
+  {
+    "id": 3,
+    "description": "We choose Warehousity for their ability to be innovate and flexible in their solutions,  and to move rapidly in implementing those.",
+    "title": "Senior Manager Operations",
+    "image":"/assets/images/testimonials/Test4.png",
+    "user": {
+      "id": 1,
+      "firstName": "Mathew",
+      "lastName": ""
+    }
+  },
+  {
+    "id": 4,
+    "description": "Working with Warehousity on a daily basis is a pleasure, based on their effeciency when it comes to optimizing all our warehousing activities.",
+    "title": "Logistics Manager",
+    "image":"/assets/images/testimonials/Test5.png",
+    "user": {
+      "id": 1,
+      "firstName": "Rashid",
+      "lastName": "Shahid"
+    }
+  },
+  {
+    "id": 5,
+    "description": "We are very pleased with the level of service provided by Warehousity team. They handle the daily volume of requests we send their way and are always willing to go the extra mile when challenging assignments are encountered.",
+    "title": "VP Compliance",
+    "image":"/assets/images/testimonials/Test6.png",
+    "user": {
+      "id": 1,
+      "firstName": "Ritika",
+      "lastName": "Purohit"
+    }
+  }
+]

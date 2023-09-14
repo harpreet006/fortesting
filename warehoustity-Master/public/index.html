@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="" />
+
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="theme-color" content="#0061ff">
+    <meta name="Keywords" content="">
+    <!-- FAVICONS ICON -->
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.jpeg" /> -->
+
+    <!-- PAGE TITLE HERE -->
+    <title>Warehouse</title>
+    <!-- MOBILE SPECIFIC -->
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+    <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" type="text/css" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/plugins/fontawesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/plugins/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <!-- JavaScript  files ========================================= -->
+
+  
+    
+
+    <!-- <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/plugins/owl-carousel/js/owl.carousel.js"></script>
+    <script src="assets/plugins/slick/slick.min.js"></script>
+    <script src="assets/js/custom.min.js"></script>
+    <script src="assets/js/main.js"></script> -->
+
+    
+
+    <script>
+      window.addEventListener('load', (event) => {
+        if (window.location.pathname.length == 1) {
+          var getheader = document.getElementsByTagName("header")[0];
+          getheader.classList.remove("sticky-on");
+          getheader.classList.remove("sticky-start");
+          getheader.classList.remove("shadow");
+          getheader.setAttribute("id", "top-header");
+        }
+  
+      });
+    </script>
+
+    <script>
+      function initMap() {
+        var center = {
+          lat: 34.052235,
+          lng: -118.243683
+        };
+        var locations = [
+          ['<div class="card custom-warehouse-detail custom-shadow m-0">\
+        <div class="row mx-0">\
+          <div class="col-sm-5 col-lg-12 col-xxl-5 col-xxxl-5 d-none d-sm-block d-xxl-block px-0 ">\
+            <div class="card card-overlay px-0">\
+              <div class="img-holder card-img"><img src="assets/images/warehouse/warehouse1.png" alt="warehouse" class="img-fluid w-100"></div>\
+              <div class="card-img-overlay p-1 d-flex align-items-end">\
+                <div class="card-body text-center px-0 py-3">\
+                  <div>\
+                      <i class="fas fa-star text-warning"></i>\
+                      <i class="fas fa-star text-warning"></i>\
+                      <i class="fas fa-star text-warning"></i>\
+                      <i class="fas fa-star-half-alt text-warning"></i>\
+                      <i class="far fa-star text-warning"></i>\
+                  </div>\
+                </div>\
+              </div>\
+            </div>\
+          </div>\
+          <div class="col-sm-7 col-lg-12 col-xxl-7 col-xxxl-7 px-0 align-self-center">\
+            <div class="card-body pb-0">\
+              <p class="card-title mb-2 text-deep-primary font-heading text-justify">ID: DL-01379</p>\
+              <ul class="pl-0 small">\
+                <li class="row py-1">\
+                  <div class="col-6 font-heading">Location:</div>\
+                  <div class="col-6 text-gray">West Delhi, Delhi</div>\
+                </li>\
+                <li class="row py-1">\
+                  <div class="col-6 font-heading">Warehouse Category:</div>\
+                  <div class="col-6 text-gray">General</div>\
+                </li>\
+                <li class="row py-1">\
+                  <div class="col-6 font-heading">Warehouse Type:</div>\
+                  <div class="col-6 text-gray">Shared</div>\
+                </li>\
+                <li class="row py-1">\
+                  <div class="col-6 font-heading">Total Area:</div>\
+                  <div class="col-6 text-gray">500 sq.ft.</div>\
+                </li>\
+              </ul>\
+            </div>\
+          </div>\
+        </div>\
+        </div>', 34.046438, -118.259653],
+  
+          ['<div class="card custom-warehouse-detail custom-shadow m-0">\
+        <div class="row mx-0">\
+          <div class="col-sm-5 col-lg-12 col-xxl-5 col-xxxl-5 d-none d-sm-block d-xxl-block px-0 ">\
+            <div class="card card-overlay px-0">\
+              <div class="img-holder card-img"><img src="assets/images/warehouse/warehouse1.png" alt="warehouse" class="img-fluid w-100"></div>\
+              <div class="card-img-overlay p-1 d-flex align-items-end">\
+                <div class="card-body text-center px-0 py-3">\
+                  <div>\
+                      <i class="fas fa-star text-warning"></i>\
+                      <i class="fas fa-star text-warning"></i>\
+                      <i class="fas .,fdsa fa-star text-warning"></i>\
+                      <i class="fas fa-star-half-alt text-warning"></i>\
+                      <i class="far fa-star text-warning"></i>\
+                  </div>\
+                </div>\
+              </div>\
+            </div>\
+          </div>\
+          <div class="col-sm-7 col-lg-12 col-xxl-7 col-xxxl-7 px-0 align-self-center">\
+            <div class="card-body pb-0">\
+              <p class="card-title mb-2 text-deep-primary font-heading text-justify">ID: DL-01379</p>\
+              <ul class="pl-0 small">\
+                <li class="row py-1">\
+                  <div class="col-6 font-heading">Location:</div>\
+                  <div class="col-6 text-gray">West Delhi, Delhi</div>\
+                </li>\
+                <li class="row py-1">\
+                  <div class="col-6 font-heading">Warehouse Category:</div>\
+                  <div class="col-6 text-gray">General</div>\
+                </li>\
+                <li class="row py-1">\
+                  <div class="col-6 font-heading">Warehouse Type:</div>\
+                  <div class="col-6 text-gray">Shared</div>\
+                </li>\
+                <li class="row py-1">\
+                  <div class="col-6 font-heading">Total Area:</div>\
+                  <div class="col-6 text-gray">500 sq.ft.</div>\
+                </li>\
+              </ul>\
+            </div>\
+          </div>\
+        </div>\
+        </div>', 34.017951, -118.493567],
+          ['<div class="card custom-warehouse-detail custom-shadow m-0">\
+        <div class="row mx-0">\
+          <div class="col-sm-5 col-lg-12 col-xxl-5 col-xxxl-5 d-none d-sm-block d-xxl-block px-0 ">\
+            <div class="card card-overlay px-0">\
+              <div class="img-holder card-img"><img src="assets/images/warehouse/warehouse1.png" alt="warehouse" class="img-fluid w-100"></div>\
+              <div class="card-img-overlay p-1 d-flex align-items-end">\
+                <div class="card-body text-center px-0 py-3">\
+                  <div>\
+                      <i class="fas fa-star text-warning"></i>\
+                      <i class="fas fa-star text-warning"></i>\
+                      <i class="fas fa-star text-warning"></i>\
+                      <i class="fas fa-star-half-alt text-warning"></i>\
+                      <i class="far fa-star text-warning"></i>\
+                  </div>\
+                </div>\
+              </div>\
+            </div>\
+          </div>\
+          <div class="col-sm-7 col-lg-12 col-xxl-7 col-xxxl-7 px-0 align-self-center">\
+            <div class="card-body pb-0">\
+              <p class="card-title mb-2 text-deep-primary font-heading text-justify">ID: DL-01379</p>\
+              <ul class="pl-0 small">\
+                <li class="row py-1">\
+                  <div class="col-6 font-heading">Location:</div>\
+                  <div class="col-6 text-gray">West Delhi, Delhi</div>\
+                </li>\
+                <li class="row py-1">\
+                  <div class="col-6 font-heading">Warehouse Category:</div>\
+                  <div class="col-6 text-gray">General</div>\
+                </li>\
+                <li class="row py-1">\
+                  <div class="col-6 font-heading">Warehouse Type:</div>\
+                  <div class="col-6 text-gray">Shared</div>\
+                </li>\
+                <li class="row py-1">\
+                  <div class="col-6 font-heading">Total Area:</div>\
+                  <div class="col-6 text-gray">500 sq.ft.</div>\
+                </li>\
+              </ul>\
+            </div>\
+          </div>\
+        </div>\
+        </div>', 34.143073, -118.132040],
+          ['<div class="card custom-warehouse-detail custom-shadow m-0">\
+        <div class="row mx-0">\
+          <div class="col-sm-5 col-lg-12 col-xxl-5 col-xxxl-5 d-none d-sm-block d-xxl-block px-0 ">\
+            <div class="card card-overlay px-0">\
+              <div class="img-holder card-img"><img src="assets/images/warehouse/warehouse1.png" alt="warehouse" class="img-fluid w-100"></div>\
+              <div class="card-img-overlay p-1 d-flex align-items-end">\
+                <div class="card-body text-center px-0 py-3">\
+                  <div>\
+                      <i class="fas fa-star text-warning"></i>\
+                      <i class="fas fa-star text-warning"></i>\
+                      <i class="fas fa-star text-warning"></i>\
+                      <i class="fas fa-star-half-alt text-warning"></i>\
+                      <i class="far fa-star text-warning"></i>\
+                  </div>\
+                </div>\
+              </div>\
+            </div>\
+          </div>\
+          <div class="col-sm-7 col-lg-12 col-xxl-7 col-xxxl-7 px-0 align-self-center">\
+            <div class="card-body pb-0">\
+              <p class="card-title mb-2 text-deep-primary font-heading text-justify">ID: DL-01379</p>\
+              <ul class="pl-0 small">\
+                <li class="row py-1">\
+                  <div class="col-6 font-heading">Location:</div>\
+                  <div class="col-6 text-gray">West Delhi, Delhi</div>\
+                </li>\
+                <li class="row py-1">\
+                  <div class="col-6 font-heading">Warehouse Category:</div>\
+                  <div class="col-6 text-gray">General</div>\
+                </li>\
+                <li class="row py-1">\
+                  <div class="col-6 font-heading">Warehouse Type:</div>\
+                  <div class="col-6 text-gray">Shared</div>\
+                </li>\
+                <li class="row py-1">\
+                  <div class="col-6 font-heading">Total Area:</div>\
+                  <div class="col-6 text-gray">500 sq.ft.</div>\
+                </li>\
+              </ul>\
+            </div>\
+          </div>\
+        </div>\
+        </div>', 33.655199, -117.998640],
+          ['<div class="card custom-warehouse-detail custom-shadow m-0">\
+        <div class="row mx-0">\
+          <div class="col-sm-5 col-lg-12 col-xxl-5 col-xxxl-5 d-none d-sm-block d-xxl-block px-0 ">\
+            <div class="card card-overlay px-0">\
+              <div class="img-holder card-img"><img src="assets/images/warehouse/warehouse1.png" alt="warehouse" class="img-fluid w-100"></div>\
+              <div class="card-img-overlay p-1 d-flex align-items-end">\
+                <div class="card-body text-center px-0 py-3">\
+                  <div>\
+                      <i class="fas fa-star text-warning"></i>\
+                      <i class="fas fa-star text-warning"></i>\
+                      <i class="fas fa-star text-warning"></i>\
+                      <i class="fas fa-star-half-alt text-warning"></i>\
+                      <i class="far fa-star text-warning"></i>\
+                  </div>\
+                </div>\
+              </div>\
+            </div>\
+          </div>\
+          <div class="col-sm-7 col-lg-12 col-xxl-7 col-xxxl-7 px-0 align-self-center">\
+            <div class="card-body pb-0">\
+              <p class="card-title mb-2 text-deep-primary font-heading text-justify">ID: DL-01379</p>\
+              <ul class="pl-0 small">\
+                <li class="row py-1">\
+                  <div class="col-6 font-heading">Location:</div>\
+                  <div class="col-6 text-gray">West Delhi, Delhi</div>\
+                </li>\
+                <li class="row py-1">\
+                  <div class="col-6 font-heading">Warehouse Category:</div>\
+                  <div class="col-6 text-gray">General</div>\
+                </li>\
+                <li class="row py-1">\
+                  <div class="col-6 font-heading">Warehouse Type:</div>\
+                  <div class="col-6 text-gray">Shared</div>\
+                </li>\
+                <li class="row py-1">\
+                  <div class="col-6 font-heading">Total Area:</div>\
+                  <div class="col-6 text-gray">500 sq.ft.</div>\
+                </li>\
+              </ul>\
+            </div>\
+          </div>\
+        </div>\
+        </div>', 34.142823, -118.254569]
+        ];
+        var map = new google.maps.Map(document.getElementById('deliverynearbymap'), {
+          zoom: 9,
+          center: center
+        });
+        var infowindow = new google.maps.InfoWindow({});
+        var image = '/assets/images/icons/map-marker-big.png';
+  
+        var marker, count;
+        for (count = 0; count < locations.length; count++) {
+          marker = new google.maps.Marker({
+            position: new google.maps.LatLng(locations[count][1], locations[count][2]),
+            map: map,
+            icon: image,
+            title: locations[count][0]
+          });
+          google.maps.event.addListener(marker, 'click', (function (marker, count) {
+            return function () {
+              infowindow.setContent(locations[count][0]);
+              infowindow.open(map, marker);
+            }
+          })(marker, count));
+        }
+      }
+    </script>
+
+
+
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?AIzaSyBNM5e  65SXPR-rMUmwU7Lvpt_KPIFMUxwY&libraries=places&callback=initMap">
+  </script>
+ 
+<script>
+  function getCodeBoxElement(index) {
+    return document.getElementById('codeBox' + index);
+  }
+
+  function onKeyUpEvent(index, event) {
+    const eventCode = event.which || event.keyCode;
+    if (getCodeBoxElement(index).value.length === 1) {
+      if (index !== 4) {
+        getCodeBoxElement(index + 1).focus();
+      } else {
+        getCodeBoxElement(index).blur();
+        // Submit code
+        console.log('submit code ');
+      }
+    }
+    if (eventCode === 8 && index !== 1) {
+      getCodeBoxElement(index - 1).focus();
+    }
+  }
+
+  function onFocusEvent(index) {
+    for (item = 1; item < index; item++) {
+      const currentElement = getCodeBoxElement(item);
+      if (!currentElement.value) {
+        currentElement.focus();
+        break;
+      }
+    }
+  }
+
+
+  // $(".product-item-view button").on("click", function () {
+  //     $("#product-item-show-modal").find("img").attr("src", $($(".product-item-images").find( "img" )).attr("src"));
+  //     $("#product-item-show-modalTitle").text($("#product-name").text());
+  //   });
+  //   $(".card-bookmark").on("click", function () {
+  //     $(this).toggleClass("active-book");
+  //   });
+
+</script>
+
+    
+  </body>
+
+ 
+
+  
+
+ 
+
+</html>

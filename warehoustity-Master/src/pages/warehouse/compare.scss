@@ -1,0 +1,74 @@
+.search-content {
+   
+
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      top: 154%;
+    }
+    @media only screen and (max-width: 767px) {
+      top: 154%;
+      right: -105px;
+
+      min-width: 260px;
+    }
+    form {
+      position: relative;
+      input {
+        width: 100%;
+        padding: 5px 72px 5px 15px;
+
+        transition: all 0.4s ease 0s;
+
+        color: #000;
+        border: 1px solid #d3d3d3;
+        outline: medium none;
+        background: transparent;
+      }
+      .button-search {
+        font-size: 20px;
+        line-height: 1;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        height: 100%;
+        padding: 5px 20px 2px;
+
+        transition: all 0.4s ease 0s;
+        text-transform: uppercase;
+
+        color: #ce9634;
+        border: none;
+        border-color: #ce9634;
+        background: #e56c25;
+        &:hover {
+          background-color: #000;
+        }
+      }
+    }
+  }
+
+//   table { border-collapse: collapse; }
+// tr { border: none; }
+// td {
+//   border-right: solid 1px #f00; 
+//   border-left: solid 1px #f00;
+// }
+
+
+.form-section{
+  margin: 20px 0px;
+  padding-top: 30px;
+  border: 2px solid #787777;
+  
+  }
+  
+  
+  
+  .location-box{
+    padding: 15px;
+    border: 2px solid #787777; 
+    margin-top: 2rem;
+  
+  }

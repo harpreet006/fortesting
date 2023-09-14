@@ -1,0 +1,32 @@
+[
+    {
+        "url":"https://images.pexels.com/photos/208512/pexels-photo-208512.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "name":"Pharmaceutical Industry"
+
+    },
+    {
+        "url":"https://images.pexels.com/photos/1267338/pexels-photo-1267338.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "name":"Transport Industry"
+
+    },
+    {
+        "url":"https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "name":"Computer Industry"
+
+    },
+    {
+        "url":"https://images.pexels.com/photos/2733918/pexels-photo-2733918.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "name":"Agriculture industry."
+
+    },
+    {
+        "url":"https://images.pexels.com/photos/7245333/pexels-photo-7245333.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "name":"Construction Industry"
+
+    },
+    {
+        "url":"https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "name":"Education Industry"
+
+    }
+]
